@@ -1,7 +1,9 @@
 # combination-text
 
 
-`function getTagCom(){
+`
+
+function getTagCom(){
     const tags = new Set();
     const tagRegex = /^(Group|Category|Subcategory|Make|Mode|Diagram|Instruction)_[\w-]+$/;
     const parts = 'Group_Electric-Pallet-Jack-Parts, Category_switches,Subcategory_lgnition-Switch'.split(/[,\-\s]+/);
@@ -45,5 +47,4 @@
         console.log(combinations,makeValue,"combinationscombinations")
 }
 getTagCom()
-
 `
