@@ -1,7 +1,7 @@
 # combination-text
 
 
-`
+```
 
 function getTagCom(){
     const tags = new Set();
@@ -47,4 +47,4 @@ function getTagCom(){
         console.log(combinations,makeValue,"combinationscombinations")
 }
 getTagCom()
-`
+```
